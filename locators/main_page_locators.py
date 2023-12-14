@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 class MainPageLocators:
-    # вопрос 1 "Сколько это стоит? И как оплатить?"
+    # вопрос 1 "Сколько это стоит? и как оплатить?"
     coast_question_button = (By.ID, 'accordion__heading-0')
     # ответ на 1 вопрос
     coast_answer_text = (By.XPATH, '//div[@id = "accordion__panel-0"]/p')
